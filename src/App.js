@@ -59,7 +59,7 @@ import Contact from "./elements/contact/Contact";
 import Brand from "./elements/brand/Brand";
 import AdvanceTab from "./elements/advancetab/AdvanceTab";
 import AdvancePricing from "./elements/advancePricing/AdvancePricing";
-
+// import Mission from "./elements/v"
 
 import BlogGridView from "./components/blog/BlogGridView";
 import BlogListView from "./components/blog/BlogListView";

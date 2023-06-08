@@ -32,8 +32,8 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                         <div className="col-lg-9 col-md-6 col-4 position-static">
                             <div className="header-left d-flex">
                                 <Logo 
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                                    image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                                    image={`${process.env.PUBLIC_URL}/images/logo/FMO_logo_big-white.png`}
+                                    image2={`${process.env.PUBLIC_URL}/images/logo/FMO_logo_big.png`}
                                 />
                                 <nav className="mainmenu-nav d-none d-lg-block">
                                     <Nav />
