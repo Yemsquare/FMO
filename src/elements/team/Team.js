@@ -15,7 +15,7 @@ const Team = () => {
             <SEO title="Team || FMO Limited" />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="KEY PEOPLE"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Team"
@@ -30,8 +30,8 @@ const Team = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Our Experts."
-                                            title = "Our Expert Team."
+                                            subtitle = "KEY PEOPLE"
+                                            title = "Our Key People"
                                             description = ""
                                         />
                                 </div>

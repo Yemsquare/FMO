@@ -33,6 +33,18 @@ const BusinessConsulting2 = () => {
                 <HeaderTwo btnStyle="round" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
+                <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/contact-banner.png)`}}>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-8 col-xl-6">
+                                <div className="inner text-start">
+                                    <h1 className="title display-one">FMO  Holdings <br /> Investment Company</h1>
+                                    <h6 className="tag-title">A Family Office</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* <div className="slider-area slider-style-1 bg-transparent height-850">
                     <div className="container">
                         <div className="row">
@@ -67,7 +79,7 @@ const BusinessConsulting2 = () => {
                 <Separator />
 
                 {/* Start About Area  */}
-                <AboutOne />                            
+                {/* <AboutOne />                             */}
                 {/* End About Area  */}
 
                 <Separator />                            

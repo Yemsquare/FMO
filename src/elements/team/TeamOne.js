@@ -1,75 +1,95 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin, FiMail, FiPhone } from "react-icons/fi";
 import {Link} from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const teamData = [
     {
-        image: 'team-01',
-        name: 'Sr Janen Sara',
-        designation: 'Sr Product Designer',
-        location: 'CO Miego, AD, USA', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        image: 'MO-small',
+        name: 'Michael Orimobi',
+        designation: 'Chairman',
+        location: 'Lagos, NIgeria', 
+        description: 'Michael is an astute capital markets & finance lawyer, global business leader and philanthropist.',
         socialNetwork: [
+            // {
+            //     icon: <FiFacebook />,
+            //     url: '#'
+            // },
+            // {
+            //     icon: <FiTwitter />,
+            //     url: '#'
+            // },
+            // {
+            //     icon: <FiInstagram />,
+            //     url: '#'
+            // },
             {
-                icon: <FiFacebook />,
-                url: '#'
+                icon: <FiLinkedin />,
+                url: 'https://www.linkedin.com/in/michael-orimobi/'
             },
             {
-                icon: <FiTwitter />,
-                url: '#'
+                icon: <FiMail />,
+                url: 'mailto:chairman@fmoholdings.com'
             },
             {
-                icon: <FiInstagram />,
-                url: '#'
-            },
+                icon: <FiPhone />,
+                url: 'tel: +2348055190020'
+            }
         ]
        
     },
     {
-        image: 'team-02',
-        name: 'Afsana Nila',
-        designation: 'App Developer',
-        location: 'Bangladesh', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
+        image: 'COS-small',
+        name: 'Oyindamola Ade-Alli',
+        designation: 'Chief of Staff',
+        location: 'Lagos, Nigeria', 
+        description: 'Oyindamola is the Chief of Staff at FMO Holdings with over 17 years’ experience as a business support professional.',
         socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
+            // {
+            //     icon: <FiFacebook />,
+            //     url: '#'
+            // },
+            // {
+            //     icon: <FiTwitter />,
+            //     url: '#'
+            // },
             {
                 icon: <FiLinkedin />,
-                url: '#'
+                url: 'https://www.linkedin.com/in/damola-ade-alli-9831b721/'
             },
+            {
+                icon: <FiMail />,
+                url: 'mailto:cos@fmoholdings.com'
+            },
+            {
+                icon: <FiPhone />,
+                url: 'tel:++2349088814362'
+            }
         ]
       
     },
-    {
-        image: 'team-03',
-        name: 'Afanan Sifa',
-        designation: 'Accounts Manager',
-        location: 'Poland', 
-        description: 'Yes, I am a product designer. I have a passion for product design.',
-        socialNetwork: [
-            {
-                icon: <FiFacebook />,
-                url: '#'
-            },
-            {
-                icon: <FiTwitter />,
-                url: '#'
-            },
-            {
-                icon: <FiInstagram />,
-                url: '#'
-            },
-        ]
+    // {
+    //     image: 'team-03',
+    //     name: 'Afanan Sifa',
+    //     designation: 'Accounts Manager',
+    //     location: 'Poland', 
+    //     description: 'Yes, I am a product designer. I have a passion for product design.',
+    //     socialNetwork: [
+    //         {
+    //             icon: <FiFacebook />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiTwitter />,
+    //             url: '#'
+    //         },
+    //         {
+    //             icon: <FiInstagram />,
+    //             url: '#'
+    //         },
+    //     ]
         
-    },
+    // },
 ]
 
 
@@ -85,7 +105,7 @@ const TeamOne = ({column , teamStyle}) => {
                         animateOnce={true}>
                             <div className="inner">
                                 <figure className="thumbnail">
-                                    <img src={`./images/team/${data.image}.jpg`} alt="Corporate React Template" />
+                                    <img src={`./images/team/${data.image}.png`} alt="Corporate React Template" />
                                 </figure>
                                 <figcaption className="content">
                                     <h2 className="title">{data.name}</h2>
