@@ -56,5 +56,6 @@
   },
   "devDependencies": {
     "fslightbox-react": "^1.6.2"
+    "@babel/plugin-proposal-private-property-in-object"
   }
 }
