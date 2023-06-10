@@ -33,7 +33,7 @@ const BusinessConsulting2 = () => {
                 <HeaderTwo btnStyle="round" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
-                <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/contact-banner.png)`}}>
+                <div className="slider-area slider-style-2 variation-2  height-850 bg_image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/banner_fmo.png)`}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 col-xl-6">

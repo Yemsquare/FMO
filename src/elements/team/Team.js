@@ -36,7 +36,7 @@ const Team = () => {
                                         />
                                 </div>
                             </div>
-                            <TeamOne column="col-lg-4 col-md-6 col-12 mt--30" teamStyle="team-style-default" />
+                            <TeamOne column="col-lg-6 col-md-8 col-12 mt--30" teamStyle="team-style-default" />
                         </div>
                     </div>
                     {/* End Elements Area  */}
