@@ -26,10 +26,10 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner pt--80 text-center">
-                                    <div>
+                                    {/* <div>
                                         <h3 className="rn-sub-badge"><span className="theme-gradient">Our Company's About Details.</span></h3>
-                                    </div>
-                                    <h1 className="title display-one">We are, <br />FMO Holdings</h1>
+                                    </div> */}
+                                    <h1 className="title display-one">We are <br />FMO Holdings</h1>
                                 </div>
                             </div>
                         </div>
