@@ -48,7 +48,7 @@ const AboutUs = () => {
                                     <h3 className="title">We are an investment holding firm that looks out for opportunities in order to create growth for Africa & beyond.</h3>
                                 </div>
                             </div>
-                            <div className="col-lg-6" style={{fontStyle:FiAlignJustify}}>
+                            <div className="col-lg-6" style={{textAlign:'justify'}}>
                                 <p className="mb--10">We are FMO Holdings, a family-owned investment company dedicated to creating long-term value and growth opportunities in Africa & beyond.</p>
                                 <p className="mb--10">With our expertise in strategic investments and portfolio management, we aim to generate sustainable returns for our stakeholders and contribute to the overall development of the global economy.</p>
                                 <p className="mb--10">We believe in a disciplined and prudent approach to investing. Our team of experienced professionals combines in-depth market research, rigorous due diligence, and a comprehensive understanding of industry trends to make informed investment decisions.</p>
