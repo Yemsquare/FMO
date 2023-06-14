@@ -25,7 +25,7 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Form"
+                                        subtitle = ""
                                         title = "Contact us"
                                         description = ""
                                     />

@@ -114,7 +114,7 @@ const FooterFour = () => {
                                     <ul className="ft-menu link-hover">
                                         {/* <li><a href="#">Privacy Policy</a></li>
                                         <li><a href="#">Terms And Condition</a></li> */}
-                                        <li><a href="/contact">Contact Us</a></li>
+                                        <li><Link to="/contact">Contact Us</Link></li>
                                     </ul>
                                 </div>
                             </div>
