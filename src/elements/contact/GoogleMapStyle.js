@@ -28,7 +28,7 @@ class GoogleMapStyle extends Component {
       //     />
       //   </GoogleMapReact>
       // </div>
-      <div className="google-map-style-1" style={{ height: '400px', width: '100%' }}>
+      <div className="google-map-style-1" style={{ height: '600px', width: '100%' }}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7369122098085!2d3.4680659999999994!3d6.427836199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5b5f18e1b47%3A0x4863dbff8ce9dd34!2sThe%20Bolajoko!5e0!3m2!1sen!2sng!4v1753882524139!5m2!1sen!2sng"
           width="100%"
