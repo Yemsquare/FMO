@@ -14,26 +14,27 @@ function ContactForm({props , formStyle}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_evdvgpb', 
+            'template_oku108p', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            'y5m1qS8pymR_WBkEV'
         )
         .then((result) => {
             console.log(result.text);
-            }, 
+            showresult(true);
+            setTimeout(() => {
+                showresult(false);
+            }, 5000);
+        },
             (error) => {
                 console.log(error.text);
             }
         );
         e.target.reset();
-        showresult(true);
+        
     };
 
-    setTimeout(() => {
-        showresult(false);
-    }, 5000);
-
+    
     return (
         <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
             <div className="form-group">
