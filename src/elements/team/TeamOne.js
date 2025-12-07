@@ -43,7 +43,7 @@ const teamData = [
         name: 'Olubusayo Ajayi',
         designation: 'COO',
         location: 'Lagos, Nigeria', 
-        description: 'Oyindamola is the Chief of Staff at FMO Holdings with over 17 years’ experience as a business support professional.',
+        description: 'Olubusayo Ajayi is the Chief Operating Officer at FMO Holdings, overseeing the company’s operational functions.',
         socialNetwork: [
             // {
             //     icon: <FiFacebook />,
@@ -68,28 +68,28 @@ const teamData = [
         ]
       
     },
-    // {
-    //     image: 'team-03',
-    //     name: 'Afanan Sifa',
-    //     designation: 'Accounts Manager',
-    //     location: 'Poland', 
-    //     description: 'Yes, I am a product designer. I have a passion for product design.',
-    //     socialNetwork: [
-    //         {
-    //             icon: <FiFacebook />,
-    //             url: '#'
-    //         },
-    //         {
-    //             icon: <FiTwitter />,
-    //             url: '#'
-    //         },
-    //         {
-    //             icon: <FiInstagram />,
-    //             url: '#'
-    //         },
-    //     ]
+    {
+        image: 'team-03',
+        name: 'Oyinkan Fashola',
+        designation: 'COS',
+        location: 'Lagos, Nigeria', 
+        description: 'This is Oyinkan Fashola, Chief of Staff to the Managing Director at FMO Holdings.',
+        socialNetwork: [
+            {
+                icon: <FiLinkedin />,
+                url: '#'
+            },
+            {
+                icon: <FiMail />,
+                url: 'mailto:oyinkanfashola@fmoholdings.com'
+            },
+            {
+                icon: <FiPhone />,
+                url: '#'
+            },
+        ]
         
-    // },
+    },
 ]
 
 
