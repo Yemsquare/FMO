@@ -40,8 +40,8 @@ const teamData = [
     },
     {
         image: 'COS-small',
-        name: 'Oyindamola Ade-Alli',
-        designation: 'Chief of Staff',
+        name: 'Olubusayo Ajayi',
+        designation: 'COO',
         location: 'Lagos, Nigeria', 
         description: 'Oyindamola is the Chief of Staff at FMO Holdings with over 17 years’ experience as a business support professional.',
         socialNetwork: [
@@ -63,7 +63,7 @@ const teamData = [
             },
             {
                 icon: <FiPhone />,
-                url: 'tel:++2349088814362'
+                url: 'tel:+2349088814362'
             }
         ]
       
