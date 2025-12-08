@@ -55,7 +55,7 @@ const teamData = [
             // },
             {
                 icon: <FiLinkedin />,
-                url: 'https://www.linkedin.com/in/damola-ade-alli-9831b721/'
+                url: '#'
             },
             {
                 icon: <FiMail />,
@@ -73,7 +73,7 @@ const teamData = [
         name: 'Oyinkan Fashola',
         designation: 'COS',
         location: 'Lagos, Nigeria', 
-        description: 'This is Oyinkan Fashola, Chief of Staff to the Managing Director at FMO Holdings.',
+        description: 'This is Oyinkan Fashola, Chief Of Staff, Office of the Chairman at FMO Holdings.',
         socialNetwork: [
             {
                 icon: <FiLinkedin />,
@@ -85,7 +85,7 @@ const teamData = [
             },
             {
                 icon: <FiPhone />,
-                url: '#'
+                url: 'tel:+2349088814368'
             },
         ]
         
