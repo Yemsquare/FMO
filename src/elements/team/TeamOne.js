@@ -39,7 +39,7 @@ const teamData = [
        
     },
     {
-        image: 'COS-small',
+        image: 'Olubusayo-Small',
         name: 'Olubusayo Ajayi',
         designation: 'COO',
         location: 'Lagos, Nigeria', 
@@ -69,7 +69,7 @@ const teamData = [
       
     },
     {
-        image: 'team-03',
+        image: 'Oyinkan-Small',
         name: 'Oyinkan Fashola',
         designation: 'COS',
         location: 'Lagos, Nigeria', 
